@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=1.0">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">!-->
+        <style>
+        </style>
+        <!--<link rel="stylesheet" type="text/css" href="./mypage.css"> !-->
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                color: #000;
+                font-family:Monospace;
+                font-size:19px;
+                text-align:left;
+
+                background-color: #fff;
+                margin: 0px;
+                overflow: hidden;
+            }
+            canvas{
+                opacity: 0.0;
+                transition: opacity 9.0s ease-in;
+            }
+            canvas:hover{
+                opacity: 1.0;
+                transition: opacity 1.0s ease-in;
+            }
+
+            div{
+                margin-top:1px;
+                margin-bottom:1px;
+                padding-right:3px;
+                padding-left:3px;
+                margin-left:3px;
+                opacity: 0.95;
+            }
+            #langsAndLinks{
+            }
+            .ClearShadeLeft{
+                border-left: 2px solid #CCCCCC;
+                position: absolute;
+                z-index:1;
+            }
+            .blue1{
+                background-color: ghostwhite;
+                border-right: 2px solid #CCCCCC;
+            }
+            .blue2{
+                padding-left: 25px;
+                background-color: darkkhaki;
+                border-right: 2px solid #AAAAAA;
+            }
+            .blue3{
+                background-color: darkkhaki;
+                text-align: center;
+                padding-top: 1px;
+                float:right;
+                border-right: 2px solid #AAAAAA;
+            }
+            h1{
+                margin-top:1px;
+                margin-bottom:-10px;
+                margin-right:0px;
+                margin-left:10px;
+                font-family: 'Arvo', serif;
+            }
+            h2{
+                margin-top:0px;
+                margin-bottom:-20px;
+                margin-right:0px;
+                margin-left:10px;
+                font-family: 'Arvo', serif;
+            }
+            a{
+                margin-left:0px;
+                margin-right:10px;
+                font-family: 'Arvo', serif;
+            }
+            font{
+                margin-top:0px;
+                margin-bottom:0px;
+                margin-left:30px;
+                margin-right:10px;
+                font-family: 'Arvo', serif;
+            }
+
+            .icon-link{
+                padding-left: 2px;
+                padding-right: 2px;
+                transition: padding-right  .3s ease;
+                transition: padding-left  .3s ease;
+                transition: color  .3s ease;
+            }
+
+            .icon-link, icon-link:visited{
+                color: #ecf0f1;
+            }
+            .icon-link:hover{
+                color: #2980b9;
+                padding-left: 8px;
+                padding-right: 8px;
+                transition: color  .3s ease;
+                transition: padding-right  .3s ease;
+                transition: padding-left  .3s ease;
+                
+            }
+
+            #fl{
+                float : left;
+            }
+            #fr{
+                float : right;
+            }
+            #fc{
+                float : center;
+            }
+        </style>
+    </head>    
+    <body>
+    
+        <div class = "ClearShadeLeft">
+            <div class="blue1" id = "infoDiv">
+                    <h1 id = "nameHeader">
+                        Krewn Solutions Freelance Software Development
+                    </h1><br>
+            </div>
+        
+            <div id = "langsAndLinks">
+                <div class = "blue2" id = "pro">
+                    <h2 id = "WebDev"> Pair Programming </h2>
+                    <font>First 2 hours free!</font><br>
+                    <font>$21/hr any hour.</font><br><br>
+                    <font><a href="mailto:kpie314@?subject=pairProgramming">EmailMe!</a></font><br>
+                </div><br>
+                <div class = "blue2" id = "pro">
+                    <h2 id = "WebDev"> Mean Stack Development </h2>
+                    <font style="font-weight: bold">"Points are defined on the basis of complexity." ~J.T.</font><br><br>
+                    <font>For example given pre-existing tools something</font><br>
+                    <font>like creating a centralized user may cost less</font><br>
+                    <font>than a point while custom user features and</font><br>
+                    <font>functionality may take a point or more.</font><br><br>
+                    <font>$350/point</font><br><br>
+                    <font><a href="mailto:kpie314@?subject=meanStack">EmailMe!</a></font><br>
+                </div><br>
+                <div class="blue1" id = "infoDiv">
+                    <font><a href="https://krewn.github.io">Kevin Nelson</a></font>
+                    <font><a href="mailto:kpie314@gmail.com">kpie314@gmail.com</a></font>
+                    <font><a>(802)-760-0677</a></font>
+                </div><br>
+                <div class = "blue3">
+                    <div class="list-group">
+                        <a href="https://github.com/krewn" class="icon-link">Github<i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://www.facebook.com/Kevinb867" class="icon-link">Facebook<i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="https://krewn.github.io/Reprogramming" class="icon-link">SingleCell<i class="fa fa-asterisk fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="https://krewn.github.io/ApophysisOutPuts/">Desktop Backgrounds</a>
+
+        </div><br>
+    </body>        
+</html>
